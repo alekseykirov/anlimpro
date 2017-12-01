@@ -56,7 +56,7 @@ body {
   height: 100%;
 }
 .h1 {
-  font: 700 4vw 'Rounded', sans-serif;
+  font: 700 3vw 'Rounded', sans-serif;
   letter-spacing: 3px;
   color: #fff;
   text-transform: uppercase;
@@ -64,7 +64,7 @@ body {
   margin-bottom: 10px;
 }
 .h3 {
-  font: 700 1.5vw 'Rounded', sans-serif;
+  font: 700 1vw 'Rounded', sans-serif;
   letter-spacing: 3px;
   color: #fff;
   text-transform: uppercase;
@@ -130,13 +130,15 @@ body {
 }
 .page__text {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2rem;
   text-shadow: 4px 4px 15px #000;
 }
 .page_main {
   top: 0;
   -webkit-background-size: cover;
           background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/bg-1.jpeg");
 }
 .page_services {
   top: 100%;
@@ -329,8 +331,8 @@ body {
   padding: 50px 40px 0;
 }
 .logo {
-  width: 165px;
-  height: 90px;
+  width: 257px;
+  height: 136px;
   background: url("../img/logo.png") center center no-repeat;
   -webkit-background-size: contain;
           background-size: contain;
@@ -370,6 +372,12 @@ body {
 }
 .social-link_ig {
   background-image: url("../img/icons/ig.png");
+}
+.social-link_yt {
+  background-image: url("../img/icons/yt.png");
+}
+.social-link_vimeo {
+  background-image: url("../img/icons/vmeo.png");
 }
 .social-link:hover {
   opacity: 1;
@@ -676,9 +684,6 @@ video {
   }
   .page__text {
     font-size: 1.1em;
-  }
-  .page_main {
-    background-image: url("../img/bg1.jpg");
   }
   .service {
     -webkit-flex-wrap: wrap;
